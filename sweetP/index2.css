@@ -1,0 +1,61 @@
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ccacd7;;
+  
+}
+
+.title {
+ Text-align: center;
+ font-size: 40px;
+ color: #275580;
+ text-shadow: 2px 2px #d7c7dd;
+
+}
+
+h1, h2, h3, h4 {
+ Text-align: center;
+ font-size: 25px;
+ color: #275580;
+}
+
+p {
+ font-size: 20px;
+ color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #275580;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #d7c7dd;
+}
+

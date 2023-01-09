@@ -1,0 +1,92 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ccacd7;
+  
+}
+
+h1 {
+font-size: 30px;
+text-shadow: 2px 2px #d7c7dd;
+Text-align: center;
+color: #275580;
+}
+
+P{
+ text-align: center; 
+ Font-size: 23px;
+ Line-height: 1.6;
+ color: black;
+}
+
+.column {
+  float: left;
+  margin-right: .5%;
+  width: 32%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+img {
+ border: 3px solid #275580;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #275580;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #d7c7dd;
+}
+
+
+.fo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;   
+ text-align: center;       
+}
+
+.fo p {
+color: #275580; 
+}
